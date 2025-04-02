@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Burguer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/Style/style.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Dev Burguer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Cardapio.html">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-center mt-5" id="menu">
+        <h1 class="mb-5">Nosso Cardápio</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <i class="fas fa-hamburger fa-3x"></i>
+                <h3>Burgers</h3>
+                <p>Deliciosos hambúrgueres artesanais.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-coffee fa-3x"></i>
+                <h3>Bebidas</h3>
+                <p>Sucos, refrigerantes e drinks especiais.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-ice-cream fa-3x"></i>
+                <h3>Sobremesas</h3>
+                <p>Sobremesas irresistíveis para completar sua refeição.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5" id="contato">
+        <div class="form-container">
+            <h2>Entre em Contato</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                </div>
+                <div class="mb-3">
+                    <label for="telefone" class="form-label">Telefone</label>
+                    <input type="tel" class="form-control" id="telefone" placeholder="(XX) XXXXX-XXXX">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Seu email">
+                </div>
+                <div class="mb-3">
+                    <label for="descricao" class="form-label">Descrição / Pedido</label>
+                    <textarea class="form-control" id="descricao" rows="4" placeholder="Descreva seu pedido ou deixe uma mensagem"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <a href="https://wa.me/11912757601" class="whatsapp-button">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

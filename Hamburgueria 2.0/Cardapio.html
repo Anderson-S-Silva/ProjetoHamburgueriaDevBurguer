@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Burguer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/Style/style.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Dev Burguer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Cardapio.html">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-center mt-5" id="menu">
+        <h1 class="mb-5">Nosso Cardápio</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <i class="fas fa-hamburger fa-3x" onclick="document.getElementById('burgers').scrollIntoView({ behavior: 'smooth' });"></i>
+                <h3>Burgers</h3>
+                <p>Deliciosos hambúrgueres artesanais.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-coffee fa-3x"></i>
+                <h3>Bebidas</h3>
+                <p>Sucos, refrigerantes e drinks especiais.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-ice-cream fa-3x"></i>
+                <h3>Sobremesas</h3>
+                <p>Sobremesas irresistíveis para completar sua refeição.</p>
+            </div>
+        </div>
+    </div>
+
+   <!-- Item 1 -->
+   <div class="row menu-item position-relative">
+    <div class="col-md-6">
+        <img src="/img/Brunurger.jpeg" class="img-fluid" alt="Brunurger Supreme">
+        <div class="description">Um hambúrguer supremo para quem não se contenta com pouco: pão brioche, dois smash burgers suculentos, queijo cheddar duplo, bacon crocante e molho especial da casa.</div>
+    </div>
+    <div class="col-md-6 d-flex align-items-center">
+        <h2>Brunurger Supreme</h2>
+    </div>
+</div>
+
+<!-- Item 2 -->
+<div class="row menu-item position-relative">
+    <div class="col-md-6 order-md-2">
+        <img src="/img/AndyFire.jpeg" class="img-fluid" alt="Andy Fire">
+        <div class="description">Explosão de sabor com um toque apimentado! Pão australiano, hambúrguer de costela, queijo prato, picles, cebola crispy e molho picante exclusivo.</div>
+    </div>
+    <div class="col-md-6 d-flex align-items-center">
+        <h2>Andy Fire</h2>
+    </div>
+</div>
+
+<!-- Item 3 -->
+<div class="row menu-item position-relative">
+    <div class="col-md-6">
+        <img src="/img/YuDilicia.jpeg" class="img-fluid" alt="Yudilicia">
+        <div class="description">Para os fãs de muito queijo! hambúrguere suculento, queijo cheddar cremoso em dobro, pão de brioche e um toque de molho especial defumado.</div>
+    </div>
+    <div class="col-md-6 d-flex align-items-center">
+        <h2>YuDilicia</h2>
+    </div>
+</div>
+</div>
+
+<!-- Item 4 -->
+<div class="row menu-item position-relative">
+  <div class="col-md-6 order-md-2">
+      <img src="/img/AndyFire.jpeg" class="img-fluid" alt="Andy Fire">
+      <div class="description">Explosão de sabor com um toque apimentado! Pão australiano, hambúrguer de costela, queijo prato, picles, cebola crispy e molho picante exclusivo.</div>
+  </div>
+  <div class="col-md-6 d-flex align-items-center">
+      <h2>Hamburguer 4</h2>
+  </div>
+</div>
+
+<!-- Item 5 -->
+<div class="row menu-item position-relative">
+  <div class="col-md-6">
+      <img src="/img/YuDilicia.jpeg" class="img-fluid" alt="Yudilicia">
+      <div class="description">Para os fãs de muito queijo! hambúrguere suculento, queijo cheddar cremoso em dobro, pão de brioche e um toque de molho especial defumado.</div>
+  </div>
+  <div class="col-md-6 d-flex align-items-center">
+      <h2>Hamburguer 5</h2>
+  </div>
+</div>
+</div>
+
+<!-- Item 6 -->
+<div class="row menu-item position-relative">
+  <div class="col-md-6 order-md-2">
+      <img src="/img/AndyFire.jpeg" class="img-fluid" alt="Andy Fire">
+      <div class="description">Explosão de sabor com um toque apimentado! Pão australiano, hambúrguer de costela, queijo prato, picles, cebola crispy e molho picante exclusivo.</div>
+  </div>
+  <div class="col-md-6 d-flex align-items-center">
+      <h2>Hamburguer 6</h2>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
