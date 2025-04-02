@@ -1,2 +1,2 @@
-# ProjetoFaculdadeHamburgueria
- Primeiro Projeto da faculdade a ser colocado para demonstrar habilidades e dificuldades
+# Projeto da Faculdade
+ Repositorio criado para um projeto da faculdade onde foi desenvolvido um site basico para uma hamburgueria
