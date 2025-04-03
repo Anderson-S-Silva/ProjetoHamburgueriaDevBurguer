@@ -1,5 +1,5 @@
 body {
-    background-image: url(/);
+    background-image: url(/img/Logo.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -10,7 +10,7 @@ body {
   
 }
 .overlay {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     position: fixed;
     top: 0;
     left: 0;
@@ -68,4 +68,26 @@ body {
     color: white;
     width: 90%;
     text-align: center;
+}
+
+.btn-order {
+    margin-top: 10px;
+}
+.checkout-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+.payment-btn {
+    margin-top: 20px;
+    background-color: #ffc107;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
 }
